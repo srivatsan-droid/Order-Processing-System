@@ -1,0 +1,16 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: order-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/order_db
+    username: postgres
+    password: Sriram@#5
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
