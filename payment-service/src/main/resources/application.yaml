@@ -1,0 +1,16 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: payment-service
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/payment_db
+    username: postgres
+    password: Sriram@#5
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
